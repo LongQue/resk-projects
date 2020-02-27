@@ -7,10 +7,17 @@ import (
 	"gopkg.in/go-playground/validator.v9"
 	"resk-projects/infra/base"
 	"resk-projects/services"
+	"sync"
 )
 
 var _ services.AccountService = new(accountService)
 
+var once sync.Once
+func init()  {
+	once.Do(func() {
+		services.IAccountService=new(accountService)
+	})
+}
 type accountService struct {
 }
 

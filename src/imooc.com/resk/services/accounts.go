@@ -2,10 +2,15 @@ package services
 
 import (
 	"github.com/shopspring/decimal"
+	"resk-projects/infra/base"
 	"time"
 )
 var IAccountService AccountService
-
+//用于对外暴露账号应用服务，唯一的暴露点
+func GetAccountService() AccountService {
+	base.Check(IAccountService)
+	return IAccountService
+}
 type AccountService interface {
 	CreateAccount(dto AccountCreatedDTO) (*AccountDTO, error)
 	Transfer(dto AccountTransferDTO) (TransferStatus, error)

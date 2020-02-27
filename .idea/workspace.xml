@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98525bef-4f5b-4abd-95dc-1b194d2a683f" name="Default Changelist" comment="" />
+    <list default="true" id="98525bef-4f5b-4abd-95dc-1b194d2a683f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/imooc.com/resk/infra/initailzer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc.com/resk/infra/web.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/apis/web/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/apis/web/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/core/accounts/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/core/accounts/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/services/accounts.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/services/accounts.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +26,7 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/resk-project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -32,6 +42,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -58,16 +69,14 @@
       <recent name="E:\code-go\resk-projects\src\imooc.com\resk\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestAccountService_Transfer in resk-projects/core/accounts">
-    <configuration name="TestAccountDomain_Create in resk-projects/core/accounts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build resk-projects/brun/test">
+    <configuration name="go build resk-projects/brun/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="resk-projects" />
-      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk/core/accounts" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk" />
       <kind value="PACKAGE" />
-      <package value="resk-projects/core/accounts" />
+      <filePath value="$PROJECT_DIR$/src/imooc.com/resk/brun/test/main.go" />
+      <package value="resk-projects/brun/test" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAccountDomain_Create$" />
       <method v="2" />
     </configuration>
     <configuration name="TestAccountDomain_Transfer in resk-projects/core/accounts (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -116,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build resk-projects/brun/test" />
         <item itemvalue="Go Test.TestAccountService_Transfer in resk-projects/core/accounts" />
         <item itemvalue="Go Test.TestAccountService_CreateAccount in resk-projects/core/accounts" />
         <item itemvalue="Go Test.TestAccountDomain_Transfer in resk-projects/core/accounts (1)" />
         <item itemvalue="Go Test.TestAccountDomain_Transfer in resk-projects/core/accounts" />
-        <item itemvalue="Go Test.TestAccountDomain_Create in resk-projects/core/accounts" />
       </list>
     </recent_temporary>
   </component>
@@ -180,22 +189,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="988" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582302987488" />
-    <state width="820" height="165" key="GridCell.Tab.0.bottom" timestamp="1582644824054">
+    <state width="1077" height="189" key="GridCell.Tab.0.bottom" timestamp="1582731291735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="820" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582644824054" />
-    <state width="820" height="165" key="GridCell.Tab.0.center" timestamp="1582644824053">
+    <state width="1077" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582731291735" />
+    <state width="1077" height="189" key="GridCell.Tab.0.center" timestamp="1582731291735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="820" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582644824053" />
-    <state width="820" height="165" key="GridCell.Tab.0.left" timestamp="1582644824053">
+    <state width="1077" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582731291735" />
+    <state width="1077" height="189" key="GridCell.Tab.0.left" timestamp="1582731291734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="820" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582644824053" />
-    <state width="820" height="165" key="GridCell.Tab.0.right" timestamp="1582644824054">
+    <state width="1077" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582731291734" />
+    <state width="1077" height="189" key="GridCell.Tab.0.right" timestamp="1582731291735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="820" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582644824054" />
+    <state width="1077" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582731291735" />
     <state width="842" height="233" key="GridCell.Tab.1.bottom" timestamp="1582306082401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -232,10 +241,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="687" y="72" key="scopes/0.0.1536.824@0.0.1536.824" timestamp="1581351891894" />
-    <state x="918" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1582643414114">
+    <state x="918" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1582728185020">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="918" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582643414114" />
+    <state x="918" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582728185020" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
