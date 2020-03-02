@@ -26,7 +26,7 @@ type RedEnvelopeService interface {
 }
 
 type RedEnvelopeSendingDTO struct {
-	EnvelopeType int             `json:"envelopeType" validate:"required"`     //红包类型：普通红包，碰运气红包
+	EnvelopeType EnvelopeType    `json:"envelopeType" validate:"required"`     //红包类型：普通红包，碰运气红包
 	Username     string          `json:"username" validate:"required"`         //用户名称
 	UserId       string          `json:"userId" validate:"required"`           //用户编号, 红包所属用户
 	Blessing     string          `json:"blessing"`                             //祝福语
@@ -80,7 +80,7 @@ func (this *RedEnvelopeActivity) CopyTo(target *RedEnvelopeActivity) {
 
 type RedEnvelopeGoodsDTO struct {
 	EnvelopeNo     string          `json:"envelopeNo"`                           //红包编号,红包唯一标识
-	EnvelopeType   int             `json:"envelopeType" validate:"required"`     //红包类型：普通红包，碰运气红包
+	EnvelopeType   EnvelopeType    `json:"envelopeType" validate:"required"`     //红包类型：普通红包，碰运气红包
 	Username       string          `json:"username" validate:"required"`         //用户名称
 	UserId         string          `json:"userId" validate:"required"`           //用户编号, 红包所属用户
 	Blessing       string          `json:"blessing"`                             //祝福语
