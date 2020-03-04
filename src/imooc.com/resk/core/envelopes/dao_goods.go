@@ -23,9 +23,7 @@ func (dao *RedEnvelopeGoodsDao) Insert(po *RedEnvelopeGoods) (int64, error) {
 
 //查询，根据红包编号
 func (dao *RedEnvelopeGoodsDao) GetOne(envelopeNo string) *RedEnvelopeGoods {
-	po := &RedEnvelopeGoods{
-		EnvelopeNo: envelopeNo,
-	}
+	po := &RedEnvelopeGoods{EnvelopeNo: envelopeNo}
 	ok, err := dao.runner.GetOne(po)
 	if err != nil || !ok {
 		logrus.Error(err)
@@ -58,9 +56,10 @@ func (dao *RedEnvelopeGoodsDao) UpdateBalance(envelopeNo string, amount decimal.
 }
 
 //更新订单状态
-func (dao *RedEnvelopeGoodsDao) UpdateOrderStatus(envelopeNo string, status services.OrderStatus) (int64, error) {
-	sql := "update red_envelope_goods " +
-		" set order_status=? " +
+func (dao *RedEnvelopeGoodsDao) UpdateOrderStatus(
+	envelopeNo string, status services.OrderStatus) (int64, error) {
+	sql := " update red_envelope_goods" +
+		" set status=? " +
 		" where envelope_no=?"
 	rs, err := dao.runner.Exec(sql, status, envelopeNo)
 	if err != nil {
@@ -75,7 +74,7 @@ func (dao *RedEnvelopeGoodsDao) FindExpired(
 	var goods []RedEnvelopeGoods
 	now := time.Now()
 	sql := " select * from red_envelope_goods " +
-		" where expired_at >? " +
+		" where remain_quantity>0  and expired_at>? and status<>4 " +
 		" limit ?,?"
 	err := dao.runner.Find(&goods, sql, now, offset, size)
 	if err != nil {

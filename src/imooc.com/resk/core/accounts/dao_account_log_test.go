@@ -11,7 +11,7 @@ import (
 	"testing"
 )
 
-func TestAccountLogDao(t *testing.T) {
+func TestAccountLogDao_Insert(t *testing.T) {
 	err := base.Tx(func(runner *dbx.TxRunner) error {
 		dao := &AccountLogDao{
 			runner: runner,
