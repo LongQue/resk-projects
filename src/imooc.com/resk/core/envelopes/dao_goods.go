@@ -46,7 +46,7 @@ func (dao *RedEnvelopeGoodsDao) UpdateBalance(envelopeNo string, amount decimal.
 		" where envelope_no=? " +
 		//最重要的，乐观锁的关键
 		" and remain_quantity > 0 " +
-		" and remain_amount >= CAST(? AS DECIMAL(30,6) "
+		" and remain_amount >= CAST(? AS DECIMAL(30,6)) "
 	rs, err := dao.runner.Exec(sql, amount.String(), envelopeNo, amount.String())
 	if err != nil {
 		return 0, err
