@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98525bef-4f5b-4abd-95dc-1b194d2a683f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/dao_goods.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/po_goods.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/po_item.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc.com/resk/services/envelope_consts.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc.com/resk/services/envelopes.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/apis/web/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/apis/web/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/apis/gorpc/envelope.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/apis/gorpc/envelope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/apis/web/envelope.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/apis/web/envelope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/core/accounts/domain_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/core/accounts/domain_account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc.com/resk/services/envelopes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc.com/resk/services/envelopes.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,22 +61,22 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/imooc.com/resk/core/envelopes" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\core\envelopes" />
-      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\core\accounts" />
-      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\infra\base" />
-      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\doc" />
-      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\infra" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code-go\resk-projects\src\imooc.com\resk\core\accounts" />
       <recent name="E:\code-go\resk-projects\src\imooc.com\resk\core\accounts\accounts" />
       <recent name="E:\code-go\resk-projects\src\imooc.com\resk\brun" />
       <recent name="E:\code-go\resk-projects\src\imooc.com\resk\brun\test" />
       <recent name="E:\code-go\resk-projects\src\imooc.com\resk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\core\envelopes" />
+      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\core\accounts" />
+      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\infra\base" />
+      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\doc" />
+      <recent name="E:\code-go\resk-projects\src\imooc.com\resk\infra" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build resk-projects/brun/test">
@@ -77,57 +89,55 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAccountDomain_Transfer in resk-projects/core/accounts (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build resk-projects/example" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="resk-projects" />
-      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk/core/accounts" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="resk-projects/core/accounts" />
+      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/imooc.com/resk/example/rpc_client.go" />
+      <package value="resk-projects/example" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAccountDomain_Transfer$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAccountDomain_Transfer in resk-projects/core/accounts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRedEnvelopeGoodsDao_Insert in resk-projects/core/envelopes (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="resk-projects" />
-      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk/core/accounts" />
+      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk/core/envelopes" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="resk-projects/core/accounts" />
+      <package value="resk-projects/core/envelopes" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAccountDomain_Transfer$" />
+      <pattern value="^TestRedEnvelopeGoodsDao_Insert$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAccountService_CreateAccount in resk-projects/core/accounts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRedEnvelopeService_Receive in resk-projects/core/envelopes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="resk-projects" />
-      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk/core/accounts" />
+      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk/core/envelopes" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="resk-projects/core/accounts" />
+      <package value="resk-projects/core/envelopes" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAccountService_CreateAccount$" />
+      <pattern value="^TestRedEnvelopeService_Receive$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAccountService_Transfer in resk-projects/core/accounts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRedEnvelopeService_SendOut in resk-projects/core/envelopes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="resk-projects" />
-      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk/core/accounts" />
+      <working_directory value="$PROJECT_DIR$/src/imooc.com/resk/core/envelopes" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="resk-projects/core/accounts" />
+      <package value="resk-projects/core/envelopes" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAccountService_Transfer$" />
+      <pattern value="^TestRedEnvelopeService_SendOut$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build resk-projects/brun/test" />
-        <item itemvalue="Go Test.TestAccountService_Transfer in resk-projects/core/accounts" />
-        <item itemvalue="Go Test.TestAccountService_CreateAccount in resk-projects/core/accounts" />
-        <item itemvalue="Go Test.TestAccountDomain_Transfer in resk-projects/core/accounts (1)" />
-        <item itemvalue="Go Test.TestAccountDomain_Transfer in resk-projects/core/accounts" />
+        <item itemvalue="Go Test.TestRedEnvelopeService_Receive in resk-projects/core/envelopes" />
+        <item itemvalue="Go Build.go build resk-projects/example" />
+        <item itemvalue="Go Test.TestRedEnvelopeService_SendOut in resk-projects/core/envelopes" />
+        <item itemvalue="Go Test.TestRedEnvelopeGoodsDao_Insert in resk-projects/core/envelopes (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,10 +173,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="980" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581353620956" />
-    <state x="944" y="35" key="#go_build_resk-projects/example" timestamp="1581352989786">
+    <state x="944" y="35" key="#go_build_resk-projects/example" timestamp="1583592763118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="944" y="35" key="#go_build_resk-projects/example/0.0.1536.824@0.0.1536.824" timestamp="1581352989786" />
+    <state x="944" y="35" key="#go_build_resk-projects/example/0.0.1536.824@0.0.1536.824" timestamp="1583592763118" />
     <state x="924" y="40" key="#go_build_resk-projects/example_(1)" timestamp="1581427775500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -183,54 +193,75 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="944" y="36" key="#go_build_resk-projects/example_(4)/0.0.1536.824@0.0.1536.824" timestamp="1581521704757" />
-    <state x="988" y="170" key="FileChooserDialogImpl" timestamp="1582302987488">
+    <state x="988" y="170" key="FileChooserDialogImpl" timestamp="1583160846038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="988" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582302987488" />
-    <state width="699" height="91" key="GridCell.Tab.0.bottom" timestamp="1583070083435">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="988" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583160846038" />
+    <state width="806" height="238" key="GridCell.Tab.0.bottom" timestamp="1584157691573">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state width="699" height="91" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583070083435" />
-    <state width="699" height="91" key="GridCell.Tab.0.center" timestamp="1583070083435">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1041" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583939935962" />
+    <state width="995" height="609" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583294627194" />
+    <state width="806" height="238" key="GridCell.Tab.0.bottom/0.0.864.1496@0.0.864.1496" timestamp="1584157691573" />
+    <state width="806" height="238" key="GridCell.Tab.0.center" timestamp="1584157691573">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state width="699" height="91" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583070083435" />
-    <state width="699" height="91" key="GridCell.Tab.0.left" timestamp="1583070083435">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1041" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583939935962" />
+    <state width="995" height="609" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583294627194" />
+    <state width="806" height="238" key="GridCell.Tab.0.center/0.0.864.1496@0.0.864.1496" timestamp="1584157691573" />
+    <state width="806" height="238" key="GridCell.Tab.0.left" timestamp="1584157691573">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state width="699" height="91" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583070083435" />
-    <state width="699" height="91" key="GridCell.Tab.0.right" timestamp="1583070083435">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1041" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583939935962" />
+    <state width="995" height="609" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583294627193" />
+    <state width="806" height="238" key="GridCell.Tab.0.left/0.0.864.1496@0.0.864.1496" timestamp="1584157691573" />
+    <state width="806" height="238" key="GridCell.Tab.0.right" timestamp="1584157691573">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state width="699" height="91" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583070083435" />
-    <state width="842" height="233" key="GridCell.Tab.1.bottom" timestamp="1582306082401">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1041" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583939935962" />
+    <state width="995" height="609" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583294627194" />
+    <state width="806" height="238" key="GridCell.Tab.0.right/0.0.864.1496@0.0.864.1496" timestamp="1584157691573" />
+    <state width="806" height="238" key="GridCell.Tab.1.bottom" timestamp="1584157691574">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state width="842" height="233" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582306082401" />
-    <state width="842" height="233" key="GridCell.Tab.1.center" timestamp="1582306082401">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1041" height="147" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583939935962" />
+    <state width="806" height="238" key="GridCell.Tab.1.bottom/0.0.864.1496@0.0.864.1496" timestamp="1584157691574" />
+    <state width="806" height="238" key="GridCell.Tab.1.center" timestamp="1584157691574">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state width="842" height="233" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582306082401" />
-    <state width="842" height="233" key="GridCell.Tab.1.left" timestamp="1582306082401">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1041" height="147" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583939935962" />
+    <state width="806" height="238" key="GridCell.Tab.1.center/0.0.864.1496@0.0.864.1496" timestamp="1584157691574" />
+    <state width="806" height="238" key="GridCell.Tab.1.left" timestamp="1584157691573">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state width="842" height="233" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582306082401" />
-    <state width="842" height="233" key="GridCell.Tab.1.right" timestamp="1582306082401">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1041" height="147" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583939935962" />
+    <state width="806" height="238" key="GridCell.Tab.1.left/0.0.864.1496@0.0.864.1496" timestamp="1584157691573" />
+    <state width="806" height="238" key="GridCell.Tab.1.right" timestamp="1584157691574">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state width="842" height="233" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582306082401" />
-    <state x="352" y="109" key="SettingsEditor" timestamp="1581520805248">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1041" height="147" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583939935962" />
+    <state width="806" height="238" key="GridCell.Tab.1.right/0.0.864.1496@0.0.864.1496" timestamp="1584157691574" />
+    <state x="271" y="692" key="RollbackChangesDialog" timestamp="1584158122733">
+      <screen x="0" y="0" width="864" height="1496" />
+    </state>
+    <state x="271" y="692" key="RollbackChangesDialog/0.0.864.1496@0.0.864.1496" timestamp="1584158122733" />
+    <state x="0" y="198" key="SettingsEditor" timestamp="1584155646267">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
     <state x="352" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581520805248" />
+    <state x="0" y="198" key="SettingsEditor/0.0.864.1496@0.0.864.1496" timestamp="1584155646267" />
+    <state x="129" y="734" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584156844370">
+      <screen x="0" y="0" width="864" height="1496" />
+    </state>
+    <state x="129" y="734" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.864.1496@0.0.864.1496" timestamp="1584156844370" />
     <state x="970" y="234" width="587" height="448" key="dock-window-1" timestamp="1582039428309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="970" y="234" width="587" height="448" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1582039428309" />
-    <state x="874" y="140" width="662" height="556" key="find.popup" timestamp="1582304618175">
+    <state x="874" y="140" width="662" height="556" key="find.popup" timestamp="1583939557608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="874" y="140" width="662" height="556" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582304618175" />
+    <state x="874" y="140" width="662" height="556" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1583939557608" />
     <state x="961" y="43" key="refactoring.ChangeSignatureDialog" timestamp="1582362503700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -239,10 +270,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="687" y="72" key="scopes/0.0.1536.824@0.0.1536.824" timestamp="1581351891894" />
-    <state x="918" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1583069902048">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="516" y="265" width="672" height="1231" key="search.everywhere.popup" timestamp="1584156428539">
+      <screen x="0" y="0" width="864" height="1496" />
     </state>
-    <state x="918" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583069902048" />
+    <state x="918" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583939496761" />
+    <state x="516" y="265" width="672" height="1231" key="search.everywhere.popup/0.0.864.1496@0.0.864.1496" timestamp="1584156428539" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,26 +300,51 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/accounts/domain_account.go</url>
-          <line>69</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/accounts/domain_account.go</url>
+          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/service_recieve_test.go</url>
           <line>70</line>
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/accounts/domain_account.go</url>
-          <line>77</line>
-          <option name="timeStamp" value="17" />
+          <line>122</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/accounts/domain_account.go</url>
-          <line>78</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/service.go</url>
+          <line>66</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/domain_receive.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/domain_receive.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/domain_receive.go</url>
+          <line>49</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/imooc.com/resk/core/envelopes/domain_receive.go</url>
+          <line>59</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/imooc.com/resk/services/envelopes.go</url>
+          <line>102</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="*(*&quot;github.com/tietang/props/kvs.CompositeConfigSource&quot;)(824635510048)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
