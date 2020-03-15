@@ -6,6 +6,7 @@ import (
 	_ "resk-projects/apis/web"
 	_ "resk-projects/core/accounts"
 	_ "resk-projects/core/envelopes"
+	"resk-projects/jobs"
 
 	"resk-projects/infra"
 	"resk-projects/infra/base"
@@ -17,6 +18,7 @@ func init() {
 	infra.Register(&base.ValidatorStarter{})
 	infra.Register(&base.GoRPCStarter{})
 	infra.Register(&gorpc.GoRpcApiStarter{})
+	infra.Register(&jobs.RefundExpiredJobStarter{})
 	infra.Register(&base.IrisServerStarter{})
 	infra.Register(&infra.WebApiStarter{})
 }
